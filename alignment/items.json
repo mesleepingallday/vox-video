@@ -1,0 +1,3210 @@
+[
+ {
+  "kind": "title",
+  "text": "Chapter 1 \u2014 The Copycat From Shenzhen",
+  "id": 0,
+  "syl": 10,
+  "phr": [
+   [
+    "Chapter 1",
+    3
+   ],
+   [
+    "The Copycat From Shenzhen",
+    7
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "In November 1998, five young men in Shenzhen started a small software company.",
+  "id": 1,
+  "syl": 26,
+  "phr": [
+   [
+    "In November 1998,",
+    11
+   ],
+   [
+    "five young men in Shenzhen started a small software company.",
+    15
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Their leader was Ma Huateng.",
+  "id": 2,
+  "syl": 7,
+  "phr": [
+   [
+    "Their leader was Ma Huateng.",
+    7
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "In English, he goes by Pony, a play on his family name, Ma, which means \"horse.\"",
+  "id": 3,
+  "syl": 20,
+  "phr": [
+   [
+    "In English,",
+    3
+   ],
+   [
+    "he goes by Pony,",
+    5
+   ],
+   [
+    "a play on his family name,",
+    8
+   ],
+   [
+    "Ma,",
+    1
+   ],
+   [
+    "which means \"horse.\"",
+    3
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Their first big product wasn't original.",
+  "id": 4,
+  "syl": 11,
+  "phr": [
+   [
+    "Their first big product wasn't original.",
+    11
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "It was a copy.",
+  "id": 5,
+  "syl": 5,
+  "phr": [
+   [
+    "It was a copy.",
+    5
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "An Israeli company had built ICQ, one of the world's first internet chat programs, and America Online had bought it.",
+  "id": 6,
+  "syl": 33,
+  "phr": [
+   [
+    "An Israeli company had built ICQ,",
+    12
+   ],
+   [
+    "one of the world's first internet chat programs,",
+    11
+   ],
+   [
+    "and America Online had bought it.",
+    10
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "In February 1999, Tencent released a Chinese-language version and called it OICQ.",
+  "id": 7,
+  "syl": 29,
+  "phr": [
+   [
+    "In February 1999,",
+    11
+   ],
+   [
+    "Tencent released a Chinese-language version and called it OICQ.",
+    18
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Open ICQ.",
+  "id": 8,
+  "syl": 5,
+  "phr": [
+   [
+    "Open ICQ.",
+    5
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "AOL objected.",
+  "id": 9,
+  "syl": 6,
+  "phr": [
+   [
+    "AOL objected.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "It filed an arbitration claim in the United States, arguing that Tencent's OICQ web addresses infringed the ICQ trademark.",
+  "id": 10,
+  "syl": 36,
+  "phr": [
+   [
+    "It filed an arbitration claim in the United States,",
+    14
+   ],
+   [
+    "arguing that Tencent's OICQ web addresses infringed the ICQ trademark.",
+    22
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "So Tencent renamed the product.",
+  "id": 11,
+  "syl": 8,
+  "phr": [
+   [
+    "So Tencent renamed the product.",
+    8
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The new name was just two letters: QQ.",
+  "id": 12,
+  "syl": 10,
+  "phr": [
+   [
+    "The new name was just two letters:",
+    8
+   ],
+   [
+    "QQ.",
+    2
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "QQ took off.",
+  "id": 13,
+  "syl": 4,
+  "phr": [
+   [
+    "QQ took off.",
+    4
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "It hit a million users in its first year.",
+  "id": 14,
+  "syl": 11,
+  "phr": [
+   [
+    "It hit a million users in its first year.",
+    11
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "But it was free, and every new user cost money in servers and bandwidth.",
+  "id": 15,
+  "syl": 19,
+  "phr": [
+   [
+    "But it was free,",
+    4
+   ],
+   [
+    "and every new user cost money in servers and bandwidth.",
+    15
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Tencent didn't turn a profit until 2001.",
+  "id": 16,
+  "syl": 14,
+  "phr": [
+   [
+    "Tencent didn't turn a profit until 2001.",
+    14
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "So picture the company in early 2001.",
+  "id": 17,
+  "syl": 14,
+  "phr": [
+   [
+    "So picture the company in early 2001.",
+    14
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Growing fast.",
+  "id": 18,
+  "syl": 3,
+  "phr": [
+   [
+    "Growing fast.",
+    3
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Burning cash.",
+  "id": 19,
+  "syl": 3,
+  "phr": [
+   [
+    "Burning cash.",
+    3
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "And looking for someone willing to bet on it.",
+  "id": 20,
+  "syl": 12,
+  "phr": [
+   [
+    "And looking for someone willing to bet on it.",
+    12
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "That someone came from the other side of the world.",
+  "id": 21,
+  "syl": 12,
+  "phr": [
+   [
+    "That someone came from the other side of the world.",
+    12
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Naspers was a South African media group that started out in 1915.",
+  "id": 22,
+  "syl": 22,
+  "phr": [
+   [
+    "Naspers was a South African media group that started out in 1915.",
+    22
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "In 2001, it paid about 32 million dollars for a 46.5% stake in Tencent.",
+  "id": 23,
+  "syl": 29,
+  "phr": [
+   [
+    "In 2001,",
+    5
+   ],
+   [
+    "it paid about 32 million dollars for a 46.5% stake in Tencent.",
+    24
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Hold on to that number.",
+  "id": 24,
+  "syl": 6,
+  "phr": [
+   [
+    "Hold on to that number.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Thirty-two million dollars.",
+  "id": 25,
+  "syl": 7,
+  "phr": [
+   [
+    "Thirty-two million dollars.",
+    7
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "In 2019, Naspers moved its Tencent holding into a new company listed in Amsterdam.",
+  "id": 26,
+  "syl": 27,
+  "phr": [
+   [
+    "In 2019,",
+    6
+   ],
+   [
+    "Naspers moved its Tencent holding into a new company listed in Amsterdam.",
+    21
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "By then, CNN reported, the stake was worth about 118 billion euros, or roughly 130 billion dollars.",
+  "id": 27,
+  "syl": 33,
+  "phr": [
+   [
+    "By then,",
+    2
+   ],
+   [
+    "CNN reported,",
+    6
+   ],
+   [
+    "the stake was worth about 118 billion euros,",
+    14
+   ],
+   [
+    "or roughly 130 billion dollars.",
+    11
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "That's around four thousand dollars of value for every dollar Naspers put in, and that's after Naspers had already sold part of the stake along the way.",
+  "id": 28,
+  "syl": 39,
+  "phr": [
+   [
+    "That's around four thousand dollars of value for every dollar Naspers put in,",
+    20
+   ],
+   [
+    "and that's after Naspers had already sold part of the stake along the way.",
+    19
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "It became one of the most successful technology investments ever made.",
+  "id": 29,
+  "syl": 20,
+  "phr": [
+   [
+    "It became one of the most successful technology investments ever made.",
+    20
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "And it gave Tencent the fuel for everything that came next.",
+  "id": 30,
+  "syl": 16,
+  "phr": [
+   [
+    "And it gave Tencent the fuel for everything that came next.",
+    16
+   ]
+  ]
+ },
+ {
+  "kind": "title",
+  "text": "Chapter 2 \u2014 The $400 Million Bet",
+  "id": 31,
+  "syl": 11,
+  "phr": [
+   [
+    "Chapter 2",
+    3
+   ],
+   [
+    "The $400 Million Bet",
+    8
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "By the late 2000s, QQ had made Tencent a giant in China.",
+  "id": 32,
+  "syl": 17,
+  "phr": [
+   [
+    "By the late 2000s,",
+    6
+   ],
+   [
+    "QQ had made Tencent a giant in China.",
+    11
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "It was also building a games business.",
+  "id": 33,
+  "syl": 10,
+  "phr": [
+   [
+    "It was also building a games business.",
+    10
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "And every games business needs the same thing: hits.",
+  "id": 34,
+  "syl": 11,
+  "phr": [
+   [
+    "And every games business needs the same thing:",
+    10
+   ],
+   [
+    "hits.",
+    1
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "One of those hits came from a small studio in Los Angeles called Riot Games.",
+  "id": 35,
+  "syl": 19,
+  "phr": [
+   [
+    "One of those hits came from a small studio in Los Angeles called Riot Games.",
+    19
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Its game was League of Legends.",
+  "id": 36,
+  "syl": 7,
+  "phr": [
+   [
+    "Its game was League of Legends.",
+    7
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Tencent was already an early investor in Riot and the game's distributor in China.",
+  "id": 37,
+  "syl": 25,
+  "phr": [
+   [
+    "Tencent was already an early investor in Riot and the game's distributor in China.",
+    25
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Then, in February 2011, Tencent went much further.",
+  "id": 38,
+  "syl": 16,
+  "phr": [
+   [
+    "Then,",
+    1
+   ],
+   [
+    "in February 2011,",
+    9
+   ],
+   [
+    "Tencent went much further.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "It paid about 400 million dollars for a 93% stake in Riot.",
+  "id": 39,
+  "syl": 22,
+  "phr": [
+   [
+    "It paid about 400 million dollars for a 93% stake in Riot.",
+    22
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "At the time, Riot's CEO Brandon Beck told the trade press that \"Riot is going to remain completely independent.\"",
+  "id": 40,
+  "syl": 30,
+  "phr": [
+   [
+    "At the time,",
+    3
+   ],
+   [
+    "Riot's CEO Brandon Beck told the trade press that \"Riot is going to remain completely independent.\"",
+    27
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Four years later, in December 2015, Riot mentioned something almost in passing.",
+  "id": 41,
+  "syl": 23,
+  "phr": [
+   [
+    "Four years later,",
+    4
+   ],
+   [
+    "in December 2015,",
+    8
+   ],
+   [
+    "Riot mentioned something almost in passing.",
+    11
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "In a blog post about changes to employee pay, it noted that Tencent had bought the rest of the company.",
+  "id": 42,
+  "syl": 28,
+  "phr": [
+   [
+    "In a blog post about changes to employee pay,",
+    13
+   ],
+   [
+    "it noted that Tencent had bought the rest of the company.",
+    15
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The price was never disclosed.",
+  "id": 43,
+  "syl": 7,
+  "phr": [
+   [
+    "The price was never disclosed.",
+    7
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Riot was now wholly owned by Tencent.",
+  "id": 44,
+  "syl": 10,
+  "phr": [
+   [
+    "Riot was now wholly owned by Tencent.",
+    10
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "That's the Tencent playbook in miniature.",
+  "id": 45,
+  "syl": 10,
+  "phr": [
+   [
+    "That's the Tencent playbook in miniature.",
+    10
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Buy in big.",
+  "id": 46,
+  "syl": 3,
+  "phr": [
+   [
+    "Buy in big.",
+    3
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Promise independence.",
+  "id": 47,
+  "syl": 6,
+  "phr": [
+   [
+    "Promise independence.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Let the studio keep its name, its offices, and its culture.",
+  "id": 48,
+  "syl": 16,
+  "phr": [
+   [
+    "Let the studio keep its name,",
+    8
+   ],
+   [
+    "its offices,",
+    4
+   ],
+   [
+    "and its culture.",
+    4
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Nothing on the box changes.",
+  "id": 49,
+  "syl": 7,
+  "phr": [
+   [
+    "Nothing on the box changes.",
+    7
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "But independence has limits.",
+  "id": 50,
+  "syl": 8,
+  "phr": [
+   [
+    "But independence has limits.",
+    8
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Tencent went on to release Honor of Kings, which became its highest-grossing mobile game.",
+  "id": 51,
+  "syl": 23,
+  "phr": [
+   [
+    "Tencent went on to release Honor of Kings,",
+    11
+   ],
+   [
+    "which became its highest-grossing mobile game.",
+    12
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "According to reporting by The Motley Fool, Riot considered Honor of Kings a League of Legends clone that could pull players away from its own game.",
+  "id": 52,
+  "syl": 37,
+  "phr": [
+   [
+    "According to reporting by The Motley Fool,",
+    12
+   ],
+   [
+    "Riot considered Honor of Kings a League of Legends clone that could pull players away from its own game.",
+    25
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The owner and the studio it owned were competing for the same players.",
+  "id": 53,
+  "syl": 18,
+  "phr": [
+   [
+    "The owner and the studio it owned were competing for the same players.",
+    18
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "In June 2012, Tencent made its second big American move.",
+  "id": 54,
+  "syl": 17,
+  "phr": [
+   [
+    "In June 2012,",
+    5
+   ],
+   [
+    "Tencent made its second big American move.",
+    12
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "It invested 330 million dollars in Epic Games of Cary, North Carolina, then best known for Gears of War.",
+  "id": 55,
+  "syl": 31,
+  "phr": [
+   [
+    "It invested 330 million dollars in Epic Games of Cary,",
+    19
+   ],
+   [
+    "North Carolina,",
+    5
+   ],
+   [
+    "then best known for Gears of War.",
+    7
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Founder Tim Sweeney later told Polygon that the deal bought about 48.4% of Epic's outstanding shares, or 40% of the company once employee stock options were counted.",
+  "id": 56,
+  "syl": 51,
+  "phr": [
+   [
+    "Founder Tim Sweeney later told Polygon that the deal bought about 48.4% of Epic's outstanding shares,",
+    31
+   ],
+   [
+    "or 40% of the company once employee stock options were counted.",
+    20
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Sweeney kept control.",
+  "id": 57,
+  "syl": 5,
+  "phr": [
+   [
+    "Sweeney kept control.",
+    5
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "But Variety later reported that the deal fundamentally changed how Epic built and released games.",
+  "id": 58,
+  "syl": 26,
+  "phr": [
+   [
+    "But Variety later reported that the deal fundamentally changed how Epic built and released games.",
+    26
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Several of its best-known leaders left, including president Mike Capps and designer Cliff Bleszinski.",
+  "id": 59,
+  "syl": 26,
+  "phr": [
+   [
+    "Several of its best-known leaders left,",
+    10
+   ],
+   [
+    "including president Mike Capps and designer Cliff Bleszinski.",
+    16
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "And the new direction led to the game that changed everything: Fortnite.",
+  "id": 60,
+  "syl": 18,
+  "phr": [
+   [
+    "And the new direction led to the game that changed everything:",
+    16
+   ],
+   [
+    "Fortnite.",
+    2
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "By April 2022, Epic was valued at 31.5 billion dollars.",
+  "id": 61,
+  "syl": 23,
+  "phr": [
+   [
+    "By April 2022,",
+    8
+   ],
+   [
+    "Epic was valued at 31.5 billion dollars.",
+    15
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Now do the math.",
+  "id": 62,
+  "syl": 4,
+  "phr": [
+   [
+    "Now do the math.",
+    4
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Over the years, Tencent's stake has been diluted to around 28%, according to multiple reports.",
+  "id": 63,
+  "syl": 29,
+  "phr": [
+   [
+    "Over the years,",
+    4
+   ],
+   [
+    "Tencent's stake has been diluted to around 28%,",
+    16
+   ],
+   [
+    "according to multiple reports.",
+    9
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Even at that size, at Epic's 2022 valuation, it would be worth close to nine billion dollars on paper.",
+  "id": 64,
+  "syl": 30,
+  "phr": [
+   [
+    "Even at that size,",
+    5
+   ],
+   [
+    "at Epic's 2022 valuation,",
+    11
+   ],
+   [
+    "it would be worth close to nine billion dollars on paper.",
+    14
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The original check was 330 million.",
+  "id": 65,
+  "syl": 13,
+  "phr": [
+   [
+    "The original check was 330 million.",
+    13
+   ]
+  ]
+ },
+ {
+  "kind": "title",
+  "text": "Chapter 3 \u2014 The Quiet Empire",
+  "id": 66,
+  "syl": 8,
+  "phr": [
+   [
+    "Chapter 3",
+    3
+   ],
+   [
+    "The Quiet Empire",
+    5
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Then Tencent went shopping in Europe.",
+  "id": 67,
+  "syl": 9,
+  "phr": [
+   [
+    "Then Tencent went shopping in Europe.",
+    9
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "In June 2016, it agreed to buy about 84% of Supercell, the Finnish maker of Clash of Clans, mostly from Japan's SoftBank.",
+  "id": 68,
+  "syl": 37,
+  "phr": [
+   [
+    "In June 2016,",
+    6
+   ],
+   [
+    "it agreed to buy about 84% of Supercell,",
+    15
+   ],
+   [
+    "the Finnish maker of Clash of Clans,",
+    9
+   ],
+   [
+    "mostly from Japan's SoftBank.",
+    7
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The deal was valued at roughly 8.6 billion dollars, and it valued Supercell as a whole at about 10.2 billion.",
+  "id": 69,
+  "syl": 34,
+  "phr": [
+   [
+    "The deal was valued at roughly 8.6 billion dollars,",
+    15
+   ],
+   [
+    "and it valued Supercell as a whole at about 10.2 billion.",
+    19
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The promise was familiar.",
+  "id": 70,
+  "syl": 7,
+  "phr": [
+   [
+    "The promise was familiar.",
+    7
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Supercell's management would keep its operational independence, and the company would stay in Finland.",
+  "id": 71,
+  "syl": 29,
+  "phr": [
+   [
+    "Supercell's management would keep its operational independence,",
+    19
+   ],
+   [
+    "and the company would stay in Finland.",
+    10
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "By then, gaming made up more than half of Tencent's revenue.",
+  "id": 72,
+  "syl": 14,
+  "phr": [
+   [
+    "By then,",
+    2
+   ],
+   [
+    "gaming made up more than half of Tencent's revenue.",
+    12
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The list kept growing.",
+  "id": 73,
+  "syl": 5,
+  "phr": [
+   [
+    "The list kept growing.",
+    5
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Tencent took stakes in Ubisoft, Paradox, Remedy, Techland, Krafton, and FromSoftware.",
+  "id": 74,
+  "syl": 22,
+  "phr": [
+   [
+    "Tencent took stakes in Ubisoft,",
+    8
+   ],
+   [
+    "Paradox,",
+    3
+   ],
+   [
+    "Remedy,",
+    3
+   ],
+   [
+    "Techland,",
+    2
+   ],
+   [
+    "Krafton,",
+    2
+   ],
+   [
+    "and FromSoftware.",
+    4
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "It owns Funcom, the studio behind Dune: Awakening, and Grinding Gear Games, the studio behind Path of Exile, outright.",
+  "id": 75,
+  "syl": 33,
+  "phr": [
+   [
+    "It owns Funcom,",
+    4
+   ],
+   [
+    "the studio behind Dune:",
+    7
+   ],
+   [
+    "Awakening,",
+    4
+   ],
+   [
+    "and Grinding Gear Games,",
+    5
+   ],
+   [
+    "the studio behind Path of Exile,",
+    11
+   ],
+   [
+    "outright.",
+    2
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Then, in November 2025, came a deal that looked a lot like a rescue.",
+  "id": 76,
+  "syl": 21,
+  "phr": [
+   [
+    "Then,",
+    1
+   ],
+   [
+    "in November 2025,",
+    9
+   ],
+   [
+    "came a deal that looked a lot like a rescue.",
+    11
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Ubisoft, the French publisher, was under pressure and carrying debt.",
+  "id": 77,
+  "syl": 17,
+  "phr": [
+   [
+    "Ubisoft,",
+    3
+   ],
+   [
+    "the French publisher,",
+    5
+   ],
+   [
+    "was under pressure and carrying debt.",
+    9
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Tencent put 1.16 billion euros into a new Ubisoft subsidiary built around Assassin's Creed, Far Cry, and Rainbow Six.",
+  "id": 78,
+  "syl": 36,
+  "phr": [
+   [
+    "Tencent put 1.16 billion euros into a new Ubisoft subsidiary built around Assassin's Creed,",
+    30
+   ],
+   [
+    "Far Cry,",
+    2
+   ],
+   [
+    "and Rainbow Six.",
+    4
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "In return, it got a 26.32% economic interest.",
+  "id": 79,
+  "syl": 21,
+  "phr": [
+   [
+    "In return,",
+    3
+   ],
+   [
+    "it got a 26.32% economic interest.",
+    18
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Ubisoft kept control.",
+  "id": 80,
+  "syl": 6,
+  "phr": [
+   [
+    "Ubisoft kept control.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "CEO Yves Guillemot said the money \"deleverages the Group.\"",
+  "id": 81,
+  "syl": 18,
+  "phr": [
+   [
+    "CEO Yves Guillemot said the money \"deleverages the Group.\"",
+    18
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "In plain English, it helped pay down debt.",
+  "id": 82,
+  "syl": 9,
+  "phr": [
+   [
+    "In plain English,",
+    4
+   ],
+   [
+    "it helped pay down debt.",
+    5
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Here's what makes all of this so unusual.",
+  "id": 83,
+  "syl": 10,
+  "phr": [
+   [
+    "Here's what makes all of this so unusual.",
+    10
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Tencent rarely puts its own name on the box.",
+  "id": 84,
+  "syl": 12,
+  "phr": [
+   [
+    "Tencent rarely puts its own name on the box.",
+    12
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Riot is still Riot.",
+  "id": 85,
+  "syl": 6,
+  "phr": [
+   [
+    "Riot is still Riot.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Epic is still Epic.",
+  "id": 86,
+  "syl": 6,
+  "phr": [
+   [
+    "Epic is still Epic.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Supercell is still Supercell.",
+  "id": 87,
+  "syl": 8,
+  "phr": [
+   [
+    "Supercell is still Supercell.",
+    8
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The empire is built out of other people's brands.",
+  "id": 88,
+  "syl": 11,
+  "phr": [
+   [
+    "The empire is built out of other people's brands.",
+    11
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "And paying for it all is the machine back home: WeChat, called Weixin in China.",
+  "id": 89,
+  "syl": 19,
+  "phr": [
+   [
+    "And paying for it all is the machine back home:",
+    11
+   ],
+   [
+    "WeChat,",
+    2
+   ],
+   [
+    "called Weixin in China.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "In the second quarter of 2026, Tencent reported 1.439 billion monthly users across Weixin and WeChat.",
+  "id": 90,
+  "syl": 35,
+  "phr": [
+   [
+    "In the second quarter of 2026,",
+    12
+   ],
+   [
+    "Tencent reported 1.439 billion monthly users across Weixin and WeChat.",
+    23
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Its revenue for those three months was 204.8 billion yuan, up 11% from a year earlier.",
+  "id": 91,
+  "syl": 28,
+  "phr": [
+   [
+    "Its revenue for those three months was 204.8 billion yuan,",
+    17
+   ],
+   [
+    "up 11% from a year earlier.",
+    11
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "That's about 2.25 billion yuan coming in every single day.",
+  "id": 92,
+  "syl": 19,
+  "phr": [
+   [
+    "That's about 2.25 billion yuan coming in every single day.",
+    19
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "So that's the rise.",
+  "id": 93,
+  "syl": 4,
+  "phr": [
+   [
+    "So that's the rise.",
+    4
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "A copycat chat app becomes a cash machine, and the cash machine buys a piece of global gaming.",
+  "id": 94,
+  "syl": 25,
+  "phr": [
+   [
+    "A copycat chat app becomes a cash machine,",
+    12
+   ],
+   [
+    "and the cash machine buys a piece of global gaming.",
+    13
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "But there was a problem.",
+  "id": 95,
+  "syl": 6,
+  "phr": [
+   [
+    "But there was a problem.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Two of them, actually.",
+  "id": 96,
+  "syl": 7,
+  "phr": [
+   [
+    "Two of them,",
+    3
+   ],
+   [
+    "actually.",
+    4
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "One in Beijing.",
+  "id": 97,
+  "syl": 4,
+  "phr": [
+   [
+    "One in Beijing.",
+    4
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "And one in Washington.",
+  "id": 98,
+  "syl": 6,
+  "phr": [
+   [
+    "And one in Washington.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "title",
+  "text": "Chapter 4 \u2014 Beijing Bites",
+  "id": 99,
+  "syl": 6,
+  "phr": [
+   [
+    "Chapter 4",
+    3
+   ],
+   [
+    "Beijing Bites",
+    3
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "On August 3, 2021, a newspaper affiliated with Xinhua, China's state news agency, published an article about kids and video games.",
+  "id": 100,
+  "syl": 42,
+  "phr": [
+   [
+    "On August 3,",
+    4
+   ],
+   [
+    "2021,",
+    5
+   ],
+   [
+    "a newspaper affiliated with Xinhua,",
+    12
+   ],
+   [
+    "China's state news agency,",
+    7
+   ],
+   [
+    "published an article about kids and video games.",
+    14
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "It called online games \"spiritual opium.\"",
+  "id": 101,
+  "syl": 12,
+  "phr": [
+   [
+    "It called online games \"spiritual opium.\"",
+    12
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "It singled out Tencent's own Honor of Kings, and it cited a student who said some kids played the game for eight hours a day.",
+  "id": 102,
+  "syl": 31,
+  "phr": [
+   [
+    "It singled out Tencent's own Honor of Kings,",
+    11
+   ],
+   [
+    "and it cited a student who said some kids played the game for eight hours a day.",
+    20
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "In China, the word \"opium\" carries heavy history.",
+  "id": 103,
+  "syl": 14,
+  "phr": [
+   [
+    "In China,",
+    3
+   ],
+   [
+    "the word \"opium\" carries heavy history.",
+    11
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Tencent's stock fell as much as 11%.",
+  "id": 104,
+  "syl": 12,
+  "phr": [
+   [
+    "Tencent's stock fell as much as 11%.",
+    12
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Later that day, the article reappeared with the phrase \"spiritual opium\" removed.",
+  "id": 105,
+  "syl": 23,
+  "phr": [
+   [
+    "Later that day,",
+    4
+   ],
+   [
+    "the article reappeared with the phrase \"spiritual opium\" removed.",
+    19
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Tencent's shares still closed down 6.1%.",
+  "id": 106,
+  "syl": 11,
+  "phr": [
+   [
+    "Tencent's shares still closed down 6.1%.",
+    11
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Within hours, Tencent announced new limits on how long minors could play.",
+  "id": 107,
+  "syl": 18,
+  "phr": [
+   [
+    "Within hours,",
+    4
+   ],
+   [
+    "Tencent announced new limits on how long minors could play.",
+    14
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "It also banned children under 12 from making in-game purchases.",
+  "id": 108,
+  "syl": 17,
+  "phr": [
+   [
+    "It also banned children under 12 from making in-game purchases.",
+    17
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "It wasn't enough.",
+  "id": 109,
+  "syl": 5,
+  "phr": [
+   [
+    "It wasn't enough.",
+    5
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "At the end of August, regulators set new rules.",
+  "id": 110,
+  "syl": 13,
+  "phr": [
+   [
+    "At the end of August,",
+    6
+   ],
+   [
+    "regulators set new rules.",
+    7
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Anyone under 18 could play online games only from 8 to 9 p.m., and only on Fridays, weekends, and public holidays.",
+  "id": 111,
+  "syl": 33,
+  "phr": [
+   [
+    "Anyone under 18 could play online games only from 8 to 9 p.m.,",
+    19
+   ],
+   [
+    "and only on Fridays,",
+    6
+   ],
+   [
+    "weekends,",
+    2
+   ],
+   [
+    "and public holidays.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "For most weeks of the year, that's three hours.",
+  "id": 112,
+  "syl": 10,
+  "phr": [
+   [
+    "For most weeks of the year,",
+    6
+   ],
+   [
+    "that's three hours.",
+    4
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "This is the part of the story Western audiences tend to miss.",
+  "id": 113,
+  "syl": 17,
+  "phr": [
+   [
+    "This is the part of the story Western audiences tend to miss.",
+    17
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Tencent is enormous.",
+  "id": 114,
+  "syl": 6,
+  "phr": [
+   [
+    "Tencent is enormous.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "But at home, it doesn't make the rules.",
+  "id": 115,
+  "syl": 9,
+  "phr": [
+   [
+    "But at home,",
+    3
+   ],
+   [
+    "it doesn't make the rules.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "And that helps explain why so much of its money kept flowing west.",
+  "id": 116,
+  "syl": 16,
+  "phr": [
+   [
+    "And that helps explain why so much of its money kept flowing west.",
+    16
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "As TechCrunch noted back in 2019, regulatory risk at home is one reason Tencent kept buying stakes in game studios overseas.",
+  "id": 117,
+  "syl": 37,
+  "phr": [
+   [
+    "As TechCrunch noted back in 2019,",
+    12
+   ],
+   [
+    "regulatory risk at home is one reason Tencent kept buying stakes in game studios overseas.",
+    25
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "But the West was getting less comfortable, too.",
+  "id": 118,
+  "syl": 12,
+  "phr": [
+   [
+    "But the West was getting less comfortable,",
+    11
+   ],
+   [
+    "too.",
+    1
+   ]
+  ]
+ },
+ {
+  "kind": "title",
+  "text": "Chapter 5 \u2014 Washington Wakes Up",
+  "id": 119,
+  "syl": 8,
+  "phr": [
+   [
+    "Chapter 5",
+    3
+   ],
+   [
+    "Washington Wakes Up",
+    5
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The first shot came in August 2020.",
+  "id": 120,
+  "syl": 11,
+  "phr": [
+   [
+    "The first shot came in August 2020.",
+    11
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "President Trump signed an executive order targeting WeChat, alongside a similar order for TikTok.",
+  "id": 121,
+  "syl": 29,
+  "phr": [
+   [
+    "President Trump signed an executive order targeting WeChat,",
+    17
+   ],
+   [
+    "alongside a similar order for TikTok.",
+    12
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The administration said apps developed and owned by Chinese companies threatened national security.",
+  "id": 122,
+  "syl": 28,
+  "phr": [
+   [
+    "The administration said apps developed and owned by Chinese companies threatened national security.",
+    28
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "WeChat users in the United States sued.",
+  "id": 123,
+  "syl": 11,
+  "phr": [
+   [
+    "WeChat users in the United States sued.",
+    11
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "In September 2020, a federal magistrate judge, Laurel Beeler, blocked the ban.",
+  "id": 124,
+  "syl": 23,
+  "phr": [
+   [
+    "In September 2020,",
+    8
+   ],
+   [
+    "a federal magistrate judge,",
+    8
+   ],
+   [
+    "Laurel Beeler,",
+    4
+   ],
+   [
+    "blocked the ban.",
+    3
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "She wrote that there was considerable evidence some Chinese technologies posed a real security threat, but \"the specific evidence about WeChat is modest.\"",
+  "id": 125,
+  "syl": 43,
+  "phr": [
+   [
+    "She wrote that there was considerable evidence some Chinese technologies posed a real security threat,",
+    28
+   ],
+   [
+    "but \"the specific evidence about WeChat is modest.\"",
+    15
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The ban never took effect.",
+  "id": 126,
+  "syl": 7,
+  "phr": [
+   [
+    "The ban never took effect.",
+    7
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "In June 2021, President Biden revoked the orders and replaced them with a new review process.",
+  "id": 127,
+  "syl": 28,
+  "phr": [
+   [
+    "In June 2021,",
+    7
+   ],
+   [
+    "President Biden revoked the orders and replaced them with a new review process.",
+    21
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Round one went to Tencent.",
+  "id": 128,
+  "syl": 6,
+  "phr": [
+   [
+    "Round one went to Tencent.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Round two was quieter, and it hit gaming directly.",
+  "id": 129,
+  "syl": 13,
+  "phr": [
+   [
+    "Round two was quieter,",
+    5
+   ],
+   [
+    "and it hit gaming directly.",
+    8
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "On December 18, 2024, the Justice Department announced that two Tencent-nominated directors had left the board of Epic Games.",
+  "id": 130,
+  "syl": 38,
+  "phr": [
+   [
+    "On December 18,",
+    6
+   ],
+   [
+    "2024,",
+    5
+   ],
+   [
+    "the Justice Department announced that two Tencent-nominated directors had left the board of Epic Games.",
+    27
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The issue was a 1914 antitrust law, the Clayton Act, which bars the same people from sitting on the boards of competing companies.",
+  "id": 131,
+  "syl": 37,
+  "phr": [
+   [
+    "The issue was a 1914 antitrust law,",
+    14
+   ],
+   [
+    "the Clayton Act,",
+    4
+   ],
+   [
+    "which bars the same people from sitting on the boards of competing companies.",
+    19
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The department's reasoning was simple.",
+  "id": 132,
+  "syl": 10,
+  "phr": [
+   [
+    "The department's reasoning was simple.",
+    10
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Tencent owns Riot.",
+  "id": 133,
+  "syl": 5,
+  "phr": [
+   [
+    "Tencent owns Riot.",
+    5
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Riot competes with Epic.",
+  "id": 134,
+  "syl": 7,
+  "phr": [
+   [
+    "Riot competes with Epic.",
+    7
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "So Tencent's people shouldn't sit in Epic's boardroom.",
+  "id": 135,
+  "syl": 13,
+  "phr": [
+   [
+    "So Tencent's people shouldn't sit in Epic's boardroom.",
+    13
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Epic said the two directors resigned voluntarily because of the department's concerns.",
+  "id": 136,
+  "syl": 24,
+  "phr": [
+   [
+    "Epic said the two directors resigned voluntarily because of the department's concerns.",
+    24
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Tencent also gave up its right to appoint directors to Epic's board on its own.",
+  "id": 137,
+  "syl": 21,
+  "phr": [
+   [
+    "Tencent also gave up its right to appoint directors to Epic's board on its own.",
+    21
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "There was no court fight.",
+  "id": 138,
+  "syl": 5,
+  "phr": [
+   [
+    "There was no court fight.",
+    5
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Under pressure, Tencent simply stepped back.",
+  "id": 139,
+  "syl": 10,
+  "phr": [
+   [
+    "Under pressure,",
+    4
+   ],
+   [
+    "Tencent simply stepped back.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Then came the bigger blow.",
+  "id": 140,
+  "syl": 6,
+  "phr": [
+   [
+    "Then came the bigger blow.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "In January 2025, the Pentagon added Tencent to something called the Section 1260H list.",
+  "id": 141,
+  "syl": 29,
+  "phr": [
+   [
+    "In January 2025,",
+    9
+   ],
+   [
+    "the Pentagon added Tencent to something called the Section 1260H list.",
+    20
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "It's a roster, required by a 2021 defense law, of companies the Pentagon considers \"Chinese military companies\" operating in the United States.",
+  "id": 142,
+  "syl": 46,
+  "phr": [
+   [
+    "It's a roster,",
+    4
+   ],
+   [
+    "required by a 2021 defense law,",
+    12
+   ],
+   [
+    "of companies the Pentagon considers \"Chinese military companies\" operating in the United States.",
+    30
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Tencent's response was blunt: \"Tencent's inclusion on this list is clearly a mistake.",
+  "id": 143,
+  "syl": 20,
+  "phr": [
+   [
+    "Tencent's response was blunt:",
+    6
+   ],
+   [
+    "\"Tencent's inclusion on this list is clearly a mistake.",
+    14
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "We are not a military company or supplier.\"",
+  "id": 144,
+  "syl": 14,
+  "phr": [
+   [
+    "We are not a military company or supplier.\"",
+    14
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Investors weren't so sure.",
+  "id": 145,
+  "syl": 6,
+  "phr": [
+   [
+    "Investors weren't so sure.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "According to Reuters, Tencent's Hong Kong shares fell 7.3% the next day, wiping out about 35.4 billion dollars in market value.",
+  "id": 146,
+  "syl": 40,
+  "phr": [
+   [
+    "According to Reuters,",
+    6
+   ],
+   [
+    "Tencent's Hong Kong shares fell 7.3% the next day,",
+    15
+   ],
+   [
+    "wiping out about 35.4 billion dollars in market value.",
+    19
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "So what does the label actually do?",
+  "id": 147,
+  "syl": 11,
+  "phr": [
+   [
+    "So what does the label actually do?",
+    11
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Less than it sounds, at least at first.",
+  "id": 148,
+  "syl": 8,
+  "phr": [
+   [
+    "Less than it sounds,",
+    4
+   ],
+   [
+    "at least at first.",
+    4
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "It isn't a sanctions list, and it doesn't ban Tencent from doing business in America.",
+  "id": 149,
+  "syl": 23,
+  "phr": [
+   [
+    "It isn't a sanctions list,",
+    7
+   ],
+   [
+    "and it doesn't ban Tencent from doing business in America.",
+    16
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "But the Pentagon can't work with listed companies, and a ban on the Pentagon buying goods and services from them took effect at the end of June 2026.",
+  "id": 150,
+  "syl": 42,
+  "phr": [
+   [
+    "But the Pentagon can't work with listed companies,",
+    13
+   ],
+   [
+    "and a ban on the Pentagon buying goods and services from them took effect at the end of June 2026.",
+    29
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Tencent wanted off.",
+  "id": 151,
+  "syl": 5,
+  "phr": [
+   [
+    "Tencent wanted off.",
+    5
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "In June 2026, the Pentagon published its updated list, now 188 entities long.",
+  "id": 152,
+  "syl": 28,
+  "phr": [
+   [
+    "In June 2026,",
+    7
+   ],
+   [
+    "the Pentagon published its updated list,",
+    11
+   ],
+   [
+    "now 188 entities long.",
+    10
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Tencent was still on it.",
+  "id": 153,
+  "syl": 6,
+  "phr": [
+   [
+    "Tencent was still on it.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The Pentagon's document says Tencent is \"indirectly affiliated\" with the People's Liberation Army.",
+  "id": 154,
+  "syl": 29,
+  "phr": [
+   [
+    "The Pentagon's document says Tencent is \"indirectly affiliated\" with the People's Liberation Army.",
+    29
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The designation doesn't require the Pentagon to lay out its evidence publicly, and Tencent has been seeking its removal ever since.",
+  "id": 155,
+  "syl": 37,
+  "phr": [
+   [
+    "The designation doesn't require the Pentagon to lay out its evidence publicly,",
+    23
+   ],
+   [
+    "and Tencent has been seeking its removal ever since.",
+    14
+   ]
+  ]
+ },
+ {
+  "kind": "title",
+  "text": "Chapter 6 \u2014 The Divestment Question",
+  "id": 156,
+  "syl": 9,
+  "phr": [
+   [
+    "Chapter 6",
+    3
+   ],
+   [
+    "The Divestment Question",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Which brings us to March 2026.",
+  "id": 157,
+  "syl": 10,
+  "phr": [
+   [
+    "Which brings us to March 2026.",
+    10
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The Financial Times reported that senior White House officials had held meetings on a striking question: should Tencent be allowed to keep its stakes in Epic, Riot, and Supercell at all?",
+  "id": 158,
+  "syl": 47,
+  "phr": [
+   [
+    "The Financial Times reported that senior White House officials had held meetings on a striking question:",
+    26
+   ],
+   [
+    "should Tencent be allowed to keep its stakes in Epic,",
+    13
+   ],
+   [
+    "Riot,",
+    2
+   ],
+   [
+    "and Supercell at all?",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The concern, as reported, is data.",
+  "id": 159,
+  "syl": 10,
+  "phr": [
+   [
+    "The concern,",
+    3
+   ],
+   [
+    "as reported,",
+    4
+   ],
+   [
+    "is data.",
+    3
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Officials were weighing whether Tencent's ownership could give it access to information on millions of American players.",
+  "id": 160,
+  "syl": 32,
+  "phr": [
+   [
+    "Officials were weighing whether Tencent's ownership could give it access to information on millions of American players.",
+    32
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Let's be precise about what's known.",
+  "id": 161,
+  "syl": 8,
+  "phr": [
+   [
+    "Let's be precise about what's known.",
+    8
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The reporting we reviewed doesn't describe any finding that Tencent has actually accessed American player data.",
+  "id": 162,
+  "syl": 32,
+  "phr": [
+   [
+    "The reporting we reviewed doesn't describe any finding that Tencent has actually accessed American player data.",
+    32
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The question officials were debating is whether it could.",
+  "id": 163,
+  "syl": 15,
+  "phr": [
+   [
+    "The question officials were debating is whether it could.",
+    15
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "There's a technology angle, too.",
+  "id": 164,
+  "syl": 9,
+  "phr": [
+   [
+    "There's a technology angle,",
+    8
+   ],
+   [
+    "too.",
+    1
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Citing the FT, Tom's Hardware reported that the U.S. Army has worked directly with Epic for years on early versions of its Unreal Engine technology.",
+  "id": 165,
+  "syl": 42,
+  "phr": [
+   [
+    "Citing the FT,",
+    5
+   ],
+   [
+    "Tom's Hardware reported that the U.S. Army has worked directly with Epic for years on early versions of its Unreal Engine technology.",
+    37
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Tencent's stake in the company that builds that engine added to the scrutiny.",
+  "id": 166,
+  "syl": 20,
+  "phr": [
+   [
+    "Tencent's stake in the company that builds that engine added to the scrutiny.",
+    20
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "This review isn't new.",
+  "id": 167,
+  "syl": 6,
+  "phr": [
+   [
+    "This review isn't new.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "According to the same reporting, it sits with CFIUS, a Treasury-led committee that screens foreign investment, and it has dragged on across two administrations without a resolution.",
+  "id": 168,
+  "syl": 48,
+  "phr": [
+   [
+    "According to the same reporting,",
+    9
+   ],
+   [
+    "it sits with CFIUS,",
+    5
+   ],
+   [
+    "a Treasury-led committee that screens foreign investment,",
+    14
+   ],
+   [
+    "and it has dragged on across two administrations without a resolution.",
+    20
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Under President Biden, then\u2013Deputy Attorney General Lisa Monaco reportedly pushed for a forced sale.",
+  "id": 169,
+  "syl": 32,
+  "phr": [
+   [
+    "Under President Biden,",
+    7
+   ],
+   [
+    "then\u2013Deputy Attorney General Lisa Monaco reportedly pushed for a forced sale.",
+    25
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The Treasury Department reportedly preferred letting the investments stay, under data-protection safeguards.",
+  "id": 170,
+  "syl": 29,
+  "phr": [
+   [
+    "The Treasury Department reportedly preferred letting the investments stay,",
+    20
+   ],
+   [
+    "under data-protection safeguards.",
+    9
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "When the FT story broke, Tencent declined to comment, and Tencent's shares fell.",
+  "id": 171,
+  "syl": 19,
+  "phr": [
+   [
+    "When the FT story broke,",
+    7
+   ],
+   [
+    "Tencent declined to comment,",
+    7
+   ],
+   [
+    "and Tencent's shares fell.",
+    5
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Meanwhile, Tencent has been fighting back the Washington way.",
+  "id": 172,
+  "syl": 15,
+  "phr": [
+   [
+    "Meanwhile,",
+    3
+   ],
+   [
+    "Tencent has been fighting back the Washington way.",
+    12
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "In July 2025, John McEntee, who ran presidential personnel in Trump's first term, registered as a lobbyist for Tencent's American arm.",
+  "id": 173,
+  "syl": 40,
+  "phr": [
+   [
+    "In July 2025,",
+    8
+   ],
+   [
+    "John McEntee,",
+    4
+   ],
+   [
+    "who ran presidential personnel in Trump's first term,",
+    13
+   ],
+   [
+    "registered as a lobbyist for Tencent's American arm.",
+    15
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "According to a disclosure reported by the Washington Examiner, he was paid 175,000 dollars for his work between July and September 2025.",
+  "id": 174,
+  "syl": 49,
+  "phr": [
+   [
+    "According to a disclosure reported by the Washington Examiner,",
+    20
+   ],
+   [
+    "he was paid 175,000 dollars for his work between July and September 2025.",
+    29
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "His argument, as he told Bloomberg in September 2026, is that the designations are \"an unnecessary point of tension\" in the relationship with China.",
+  "id": 175,
+  "syl": 45,
+  "phr": [
+   [
+    "His argument,",
+    4
+   ],
+   [
+    "as he told Bloomberg in September 2026,",
+    14
+   ],
+   [
+    "is that the designations are \"an unnecessary point of tension\" in the relationship with China.",
+    27
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "\"Trump's appointees,\" he said, \"should update the lists to reflect their boss's thinking.\"",
+  "id": 176,
+  "syl": 17,
+  "phr": [
+   [
+    "\"Trump's appointees,\" he said,",
+    5
+   ],
+   [
+    "\"should update the lists to reflect their boss's thinking.\"",
+    12
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "So here's where things stand as of early October 2026.",
+  "id": 177,
+  "syl": 17,
+  "phr": [
+   [
+    "So here's where things stand as of early October 2026.",
+    17
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Tencent is still on the Pentagon's list.",
+  "id": 178,
+  "syl": 10,
+  "phr": [
+   [
+    "Tencent is still on the Pentagon's list.",
+    10
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Public reporting shows no final decision on the divestment review.",
+  "id": 179,
+  "syl": 19,
+  "phr": [
+   [
+    "Public reporting shows no final decision on the divestment review.",
+    19
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "And when Presidents Trump and Xi met in Washington in late September, that list was one of the irritants hanging over the talks.",
+  "id": 180,
+  "syl": 33,
+  "phr": [
+   [
+    "And when Presidents Trump and Xi met in Washington in late September,",
+    18
+   ],
+   [
+    "that list was one of the irritants hanging over the talks.",
+    15
+   ]
+  ]
+ },
+ {
+  "kind": "title",
+  "text": "Chapter 7 \u2014 What's Really at Stake",
+  "id": 181,
+  "syl": 9,
+  "phr": [
+   [
+    "Chapter 7",
+    4
+   ],
+   [
+    "What's Really at Stake",
+    5
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "This part is analysis, not reporting.",
+  "id": 182,
+  "syl": 11,
+  "phr": [
+   [
+    "This part is analysis,",
+    7
+   ],
+   [
+    "not reporting.",
+    4
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "If Washington ever forced a sale, Riot would be the most obvious target, because Tencent owns it outright.",
+  "id": 183,
+  "syl": 29,
+  "phr": [
+   [
+    "If Washington ever forced a sale,",
+    10
+   ],
+   [
+    "Riot would be the most obvious target,",
+    11
+   ],
+   [
+    "because Tencent owns it outright.",
+    8
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "At Epic, Tencent is a minority shareholder with no board seats left.",
+  "id": 184,
+  "syl": 19,
+  "phr": [
+   [
+    "At Epic,",
+    3
+   ],
+   [
+    "Tencent is a minority shareholder with no board seats left.",
+    16
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Any forced sale of Riot would need a buyer big enough to afford it and acceptable to regulators.",
+  "id": 185,
+  "syl": 29,
+  "phr": [
+   [
+    "Any forced sale of Riot would need a buyer big enough to afford it and acceptable to regulators.",
+    29
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "That's a short list.",
+  "id": 186,
+  "syl": 4,
+  "phr": [
+   [
+    "That's a short list.",
+    4
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "But cutting the cord would cut both ways.",
+  "id": 187,
+  "syl": 9,
+  "phr": [
+   [
+    "But cutting the cord would cut both ways.",
+    9
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Tencent isn't just an owner.",
+  "id": 188,
+  "syl": 8,
+  "phr": [
+   [
+    "Tencent isn't just an owner.",
+    8
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "It's a source of money.",
+  "id": 189,
+  "syl": 6,
+  "phr": [
+   [
+    "It's a source of money.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Ubisoft used Tencent's cash to pay down debt.",
+  "id": 190,
+  "syl": 11,
+  "phr": [
+   [
+    "Ubisoft used Tencent's cash to pay down debt.",
+    11
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "And the flow runs back the other way, too.",
+  "id": 191,
+  "syl": 10,
+  "phr": [
+   [
+    "And the flow runs back the other way,",
+    9
+   ],
+   [
+    "too.",
+    1
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "In the second quarter of 2026, Tencent said Riot's Valorant hit a record for daily players on PC in China.",
+  "id": 192,
+  "syl": 33,
+  "phr": [
+   [
+    "In the second quarter of 2026,",
+    12
+   ],
+   [
+    "Tencent said Riot's Valorant hit a record for daily players on PC in China.",
+    21
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "That's the irony at the center of this story.",
+  "id": 193,
+  "syl": 13,
+  "phr": [
+   [
+    "That's the irony at the center of this story.",
+    13
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "An American-made game is helping drive a Chinese company's growth at home.",
+  "id": 194,
+  "syl": 20,
+  "phr": [
+   [
+    "An American-made game is helping drive a Chinese company's growth at home.",
+    20
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "And that Chinese company is helping fund studios in America and Europe.",
+  "id": 195,
+  "syl": 22,
+  "phr": [
+   [
+    "And that Chinese company is helping fund studios in America and Europe.",
+    22
+   ]
+  ]
+ },
+ {
+  "kind": "title",
+  "text": "Ending \u2014 Why It Matters",
+  "id": 196,
+  "syl": 6,
+  "phr": [
+   [
+    "Ending",
+    2
+   ],
+   [
+    "Why It Matters",
+    4
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "So how did Tencent end up with a piece of so much of Western gaming?",
+  "id": 197,
+  "syl": 18,
+  "phr": [
+   [
+    "So how did Tencent end up with a piece of so much of Western gaming?",
+    18
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Patience.",
+  "id": 198,
+  "syl": 2,
+  "phr": [
+   [
+    "Patience.",
+    2
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Cash.",
+  "id": 199,
+  "syl": 1,
+  "phr": [
+   [
+    "Cash.",
+    1
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "And a playbook.",
+  "id": 200,
+  "syl": 4,
+  "phr": [
+   [
+    "And a playbook.",
+    4
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "It bought in early, often when studios needed money.",
+  "id": 201,
+  "syl": 15,
+  "phr": [
+   [
+    "It bought in early,",
+    5
+   ],
+   [
+    "often when studios needed money.",
+    10
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Most of Riot cost 400 million dollars.",
+  "id": 202,
+  "syl": 11,
+  "phr": [
+   [
+    "Most of Riot cost 400 million dollars.",
+    11
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "A huge piece of Epic cost 330 million.",
+  "id": 203,
+  "syl": 13,
+  "phr": [
+   [
+    "A huge piece of Epic cost 330 million.",
+    13
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "It let founders keep their names and their cultures.",
+  "id": 204,
+  "syl": 11,
+  "phr": [
+   [
+    "It let founders keep their names and their cultures.",
+    11
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "And it never needed you to know who it was.",
+  "id": 205,
+  "syl": 12,
+  "phr": [
+   [
+    "And it never needed you to know who it was.",
+    12
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "That's the deeper lesson about power in the modern economy.",
+  "id": 206,
+  "syl": 18,
+  "phr": [
+   [
+    "That's the deeper lesson about power in the modern economy.",
+    18
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "The most influential owner isn't always the one with its logo on the screen.",
+  "id": 207,
+  "syl": 21,
+  "phr": [
+   [
+    "The most influential owner isn't always the one with its logo on the screen.",
+    21
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Sometimes it's the one on the list of shareholders.",
+  "id": 208,
+  "syl": 12,
+  "phr": [
+   [
+    "Sometimes it's the one on the list of shareholders.",
+    12
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "For two decades, that model worked because the world was getting more connected.",
+  "id": 209,
+  "syl": 19,
+  "phr": [
+   [
+    "For two decades,",
+    4
+   ],
+   [
+    "that model worked because the world was getting more connected.",
+    15
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Now the world is splitting apart.",
+  "id": 210,
+  "syl": 8,
+  "phr": [
+   [
+    "Now the world is splitting apart.",
+    8
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Washington sees ownership as a security question.",
+  "id": 211,
+  "syl": 15,
+  "phr": [
+   [
+    "Washington sees ownership as a security question.",
+    15
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Beijing sees games as a social question.",
+  "id": 212,
+  "syl": 10,
+  "phr": [
+   [
+    "Beijing sees games as a social question.",
+    10
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "And Tencent is standing right between them, holding a stake in some of the biggest games on Earth.",
+  "id": 213,
+  "syl": 23,
+  "phr": [
+   [
+    "And Tencent is standing right between them,",
+    10
+   ],
+   [
+    "holding a stake in some of the biggest games on Earth.",
+    13
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "Whether it gets to keep them may not be decided by players, or even by markets.",
+  "id": 214,
+  "syl": 21,
+  "phr": [
+   [
+    "Whether it gets to keep them may not be decided by players,",
+    15
+   ],
+   [
+    "or even by markets.",
+    6
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "It may be decided by two governments.",
+  "id": 215,
+  "syl": 11,
+  "phr": [
+   [
+    "It may be decided by two governments.",
+    11
+   ]
+  ]
+ },
+ {
+  "kind": "sent",
+  "text": "This video is for educational purposes only and isn't investment advice.",
+  "id": 216,
+  "syl": 24,
+  "phr": [
+   [
+    "This video is for educational purposes only and isn't investment advice.",
+    24
+   ]
+  ]
+ }
+]
