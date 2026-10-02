@@ -1,11 +1,12 @@
-# ASR with word timestamps for input/voice_1.mp3, using sherpa-onnx + NeMo Parakeet TDT 0.6B v2 (int8).
+# ASR with word timestamps for the voiceover, using sherpa-onnx + NeMo Parakeet TDT 0.6B v2 (int8).
 # Model: https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-nemo-parakeet-tdt-0.6b-v2-int8.tar.bz2
-# Usage (repo root): python3 alignment/transcribe.py <model_dir>   -> alignment/asr_words.json
+# Usage (repo root): python3 alignment/transcribe.py [audio] [model_dir]   -> alignment/asr_words.json
 import sys, json, subprocess, numpy as np, sherpa_onnx
 
-MODEL = sys.argv[1] if len(sys.argv) > 1 else '/tmp/claude-0/models/sherpa-onnx-nemo-parakeet-tdt-0.6b-v2-int8'
+AUDIO = sys.argv[1] if len(sys.argv) > 1 else 'input/voice.mp3'
+MODEL = sys.argv[2] if len(sys.argv) > 2 else '/tmp/claude-0/models/sherpa-onnx-nemo-parakeet-tdt-0.6b-v2-int8'
 SR = 16000
-pcm = subprocess.run(['ffmpeg', '-v', 'error', '-i', 'input/voice_1.mp3', '-ac', '1', '-ar', str(SR), '-f', 's16le', '-'],
+pcm = subprocess.run(['ffmpeg', '-v', 'error', '-i', AUDIO, '-ac', '1', '-ar', str(SR), '-f', 's16le', '-'],
                      capture_output=True, check=True).stdout
 x = np.frombuffer(pcm, np.int16).astype(np.float32) / 32768
 print('duration', len(x) / SR)

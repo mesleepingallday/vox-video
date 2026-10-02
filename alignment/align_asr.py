@@ -9,7 +9,8 @@ exec(open(__file__).read().split('# parse paragraphs')[0])  # spoken()
 
 items = json.load(open(os.path.join(HERE, 'items.json')))
 asr = json.load(open(os.path.join(HERE, 'asr_words.json')))
-TOTAL = 586.8
+TOTAL = float(__import__('subprocess').run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0',
+    os.path.join(HERE, '..', 'input', 'voice.mp3')], capture_output=True, text=True).stdout)
 
 def units(tok):  # normalized spoken sub-words of one token
     return [u for u in re.sub(r"[^a-z' ]", ' ', spoken(tok.replace('$', '')).lower().replace('-', ' ')).replace("'", '').split() if u]
@@ -19,6 +20,7 @@ A = []; toks = []
 for it in items:
     tk = it['text'].split()
     toks.append(tk)
+    if it['kind'] == 'title': continue  # chapter titles are not read aloud
     for k, t in enumerate(tk):
         for u in units(t): A.append((u, it['id'], k))
 # asr side: (unit, word index)
@@ -70,7 +72,7 @@ for a, b in pairs:
 print('matched units', len(pairs), 'exact', exact, 'of', n)
 
 # list of all tokens in order, interpolate gaps
-seq = [(it['id'], k) for it in items for k in range(len(toks[it['id']]))]
+seq = [(it['id'], k) for it in items if it['kind'] != 'title' for k in range(len(toks[it['id']]))]
 times = [tt.get(s) for s in seq]
 miss = [seq[q] for q, v in enumerate(times) if v is None]
 known = [q for q, v in enumerate(times) if v is not None]
@@ -92,17 +94,28 @@ def end_of(t_last, word, t_next):
     if nxt: est = min(est, nxt[0] + 0.25)
     return round(min(est, t_next if t_next is not None else TOTAL), 3)
 
-TM = {}; q = 0; last = None
+TM = {}; q = 0
 for it in items:
+    if it['kind'] == 'title': continue
     tk = toks[it['id']]
     ws = [[w, round(times[q + k], 3)] for k, w in enumerate(tk)]
     q += len(tk)
     TM[str(it['id'])] = dict(t0=ws[0][1], t1=None, kind=it['kind'], text=it['text'], words=ws)
-ids = [str(it['id']) for it in items]
-for k, i in enumerate(ids):
-    nxt = TM[ids[k + 1]]['t0'] if k + 1 < len(ids) else None
+sids = [str(it['id']) for it in items if it['kind'] != 'title']
+for k, i in enumerate(sids):
+    nxt = TM[sids[k + 1]]['t0'] if k + 1 < len(sids) else None
     w = TM[i]['words'][-1]
     TM[i]['t1'] = end_of(w[1], w[0], nxt)
+# titles: silent gap between the previous sentence's last word and the next sentence's start
+for it in items:
+    if it['kind'] != 'title': continue
+    i = it['id']; nxt = TM[str(i + 1)]['t0']
+    prv = TM[str(i - 1)]['t1'] if str(i - 1) in TM else 0.0
+    t0 = min(prv, nxt); tk = toks[i]
+    ws = [[w, round(t0 + (nxt - t0) * k / len(tk), 3)] for k, w in enumerate(tk)]
+    TM[str(i)] = dict(t0=round(t0, 3), t1=round(nxt, 3), kind='title', text=it['text'], words=ws, spoken=False)
+TM = {str(it['id']): TM[str(it['id'])] for it in items}
+ids = list(TM)
 open(os.path.join(HERE, '..', 'app', 'timing.js'), 'w').write('const TM=' + json.dumps(TM) + ';\n')
 json.dump(dict(unmatched=[f'{a}:{toks[a][b]}' for a, b in miss]), open(os.path.join(HERE, 'align_report.json'), 'w'), indent=0)
 for i in ids: print(f"{i:>4} {TM[i]['t0']:7.2f} {TM[i]['t1']:7.2f}  {TM[i]['text'][:70]}")
