@@ -100,8 +100,8 @@ class Nd {
   }
   dim(t, v, d) { A(this.i, [{ filter: 'opacity(1)' }, { filter: `opacity(${v === undefined ? .25 : v})` }], t - LEAD, d || .3, 'ease-out'); return this; }
   boil(a) { cur.boil.push({ n: this.i, a: a || 1 }); return this; }
-  hl(t, d, k) { const m = this.i.querySelectorAll('mk')[k || 0]; if (m) A(m, [{ backgroundSize: '0% 100%' }, { backgroundSize: '100% 100%' }], t - LEAD, d || .45, EZ.io); return this; }
-  strike(t, d, k) { const m = this.i.querySelectorAll('sk')[k || 0]; if (m) A(m, [{ backgroundSize: '0% 100%' }, { backgroundSize: '100% 100%' }], t - LEAD, d || .35, EZ.io); return this; }
+  hl(t, d, k) { const m = this.i.querySelectorAll('mk')[k || 0]; if (m) A(m, [{ backgroundSize: '0% 82%' }, { backgroundSize: '100% 82%' }], t - LEAD, d || .45, EZ.io); return this; }
+  strike(t, d, k) { const m = this.i.querySelectorAll('sk')[k || 0]; if (m) A(m, [{ backgroundSize: '0% 12%' }, { backgroundSize: '100% 12%' }], t - LEAD, d || .35, EZ.io); return this; }
 }
 function mk(html, x, y, o) {
   o = o || {};
@@ -191,13 +191,21 @@ function overlaySvg(o) {
   s.setAttribute('width', W); s.setAttribute('height', H); s.setAttribute('viewBox', `0 0 ${W} ${H}`); s.style.cssText = 'position:absolute;left:0;top:0;overflow:visible;pointer-events:none;' + (o.z ? 'z-index:' + o.z : '');
   (o.p ? o.p.i : cur.cam).appendChild(s); return s;
 }
-function stroke(d, t, dur, o) {  // draw-on path
-  o = o || {}; const s = o.svg || overlaySvg(o);
-  const mkp = (dd, w, op) => { const p = document.createElementNS('http://www.w3.org/2000/svg', 'path'); p.setAttribute('d', dd); p.setAttribute('pathLength', '1'); p.setAttribute('fill', 'none'); p.setAttribute('stroke', o.col || (cur.dark ? '#F4EEDD' : '#1A1814')); p.setAttribute('stroke-width', w); p.setAttribute('stroke-linecap', 'round'); p.setAttribute('stroke-linejoin', 'round'); if (o.dash) p.setAttribute('stroke-dasharray', o.dash); else p.style.strokeDasharray = '1'; p.style.opacity = op; s.appendChild(p); return p; };
-  const p = mkp(d, o.sw || 6, 1);
-  if (o.dash) { // dashed: reveal with mask-like clip via opacity+pathLength trick -> use clip by animating stroke-dashoffset not possible; fade/wipe instead
-    A(p, [{ opacity: 0 }, { opacity: 1 }], t - LEAD, .3);
-  } else A(p, [{ strokeDashoffset: 1 }, { strokeDashoffset: 0 }], t - LEAD, dur, o.ease || EZ.io);
+function stroke(d, t, dur, o) {  // draw-on path; dashed paths draw on through a solid mask
+  o = o || {}; const s = o.svg || overlaySvg(o), NS = 'http://www.w3.org/2000/svg';
+  const p = document.createElementNS(NS, 'path'); p.setAttribute('d', d); p.setAttribute('fill', 'none');
+  p.setAttribute('stroke', o.col || (cur.dark ? '#F4EEDD' : '#1A1814')); p.setAttribute('stroke-width', o.sw || 6);
+  p.setAttribute('stroke-linecap', 'round'); p.setAttribute('stroke-linejoin', 'round'); s.appendChild(p);
+  const draw = el => A(el, [{ strokeDashoffset: 1, opacity: 0 }, { strokeDashoffset: .985, opacity: 1, offset: .015 }, { strokeDashoffset: 0, opacity: 1 }], t - LEAD, dur || .4, o.ease || EZ.io);
+  if (o.dash) {
+    p.setAttribute('stroke-dasharray', o.dash);
+    const id = 'mk' + (stroke.n = (stroke.n || 0) + 1), m = document.createElementNS(NS, 'mask');
+    m.setAttribute('id', id); m.setAttribute('maskUnits', 'userSpaceOnUse');
+    m.setAttribute('x', -W); m.setAttribute('y', -H); m.setAttribute('width', W * 3); m.setAttribute('height', H * 3);
+    const q = document.createElementNS(NS, 'path'); q.setAttribute('d', d); q.setAttribute('fill', 'none'); q.setAttribute('stroke', '#fff');
+    q.setAttribute('stroke-width', (o.sw || 6) + 8); q.setAttribute('stroke-linecap', 'round'); q.setAttribute('pathLength', '1'); q.style.strokeDasharray = '1 2';
+    m.appendChild(q); s.appendChild(m); p.setAttribute('mask', `url(#${id})`); draw(q);
+  } else { p.setAttribute('pathLength', '1'); p.style.strokeDasharray = '1 2'; draw(p); }
   return { svg: s, path: p };
 }
 function line(x1, y1, x2, y2, t, dur, o) { o = o || {}; const n = Math.max(2, Math.round(Math.hypot(x2 - x1, y2 - y1) / 90)), pts = []; for (let k = 0; k <= n; k++) pts.push([x1 + (x2 - x1) * k / n, y1 + (y2 - y1) * k / n]); return stroke(roughD(pts, o.j === undefined ? 2 : o.j), t, dur || .4, o); }
