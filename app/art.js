@@ -98,16 +98,17 @@ function quote(text, who, x, y, w, size, t, o) {
   return { q, n, a };
 }
 // chapter title card
-function chapter(id, no, title, col, tcol) {
+function chapter(id, no, title, col, tcol, extra) {
   const t0 = S(id);
   scene(t0, { bg: col, z0: 1.0, z1: 1.07, ox: 50, oy: 50 }, sc => {
     const ink = tcol || WHITE, ghost = /ink|navy/.test(col) ? 'rgba(255,255,255,.07)' : 'rgba(0,0,0,.13)';
-    txt(no === 'END' ? '∎' : ('0' + no), 1500, 560, 900, { c: true, col: ghost, in: 'left', t: t0 + .02, d: .8, dist: 200 });
+    if (no !== 'END') txt('0' + no, 1500, 560, 900, { c: true, col: ghost, in: 'left', t: t0 + .02, d: .8, dist: 200 });
     const cjk = { 1: '腾讯', 2: '豪赌', 3: '帝国', 4: '北京', 5: '华府', 6: '剥离', 7: '博弈', END: '意义' }[no];
     txt(cjk, 1730, 150, 150, { c: true, f: 'cjk', col: /ink|navy/.test(col) ? 'rgba(255,255,255,.1)' : 'rgba(0,0,0,.18)', in: 'fade', t: t0 + .2, rot: 0, css: { writingMode: 'vertical-rl' } });
     tag(no === 'END' ? 'ENDING' : 'CHAPTER ' + no, 150, 300, 46, { col: 'ink', f: 'm', in: 'drop', t: t0 + .02, rot: -3, boil: 1, pad: '16px 30px 11px' });
     const lines = title.split('|'); let y = 420;
     lines.forEach((l, k) => { words(l, 150, y, lines.length > 2 ? 150 : 190, t0 + .16 + k * .16, { col: ink, step: .07, wd: .32 }); y += (lines.length > 2 ? 150 : 190) * .98; });
     const u = mk(`<div style="width:520px;height:16px;background:${ink === WHITE ? YEL : INK}"></div>`, 152, y + 26, { in: 'grow', t: t0 + .55, d: .5 });
+    if (extra) extra(sc, y);
   });
 }

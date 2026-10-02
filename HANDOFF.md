@@ -2,7 +2,16 @@
 
 Everything done so far on the "Tencent" YouTube explainer, written so a new Claude Code session can pick it up without the original chat.
 
-**Status: no video has been rendered.** The engine and illustration library below are written but have never been loaded in a browser. No frame has been looked at. Treat all code as a first draft.
+## Update, 2 October 2026 (second session)
+
+- **The sync blocker is solved.** The original `input/voice_1.mp3` was the voiceover of a *different* video (Trump family / World Liberty Financial), which is why every alignment method in section 2 failed. The correct file is `input/voice.mp3` (912.8 s). It was transcribed with NeMo Parakeet TDT via sherpa-onnx (`alignment/transcribe.py`) and the script aligned to it (`alignment/align_asr.py`): 2,409 of 2,450 spoken units match exactly. `app/timing.js` now holds real times. Chapter titles are **not** spoken.
+- **All 75 scenes in section 6 are built** in `app/scenes.js` and render cleanly. `app/index.html`, `tools/render.js` and `tools/build.sh` exist (see CLAUDE.md for commands). Render speed is about 95 ms per frame per process.
+- Known issues from section 5 are fixed (highlight and strike heights; dashed strokes draw on through a mask; chart and travel work). The hand-typed coastlines were replaced by Natural Earth data (`app/land.js`).
+- Fonts were substituted (TeX Gyre is not installable here): Roboto Condensed for display, Courier Prime for typewriter, plus Lora, Poppins and Noto Serif SC, all in `app/fonts`.
+- A 1.6 s silent pre-roll was added for the Chapter 1 card (the voice starts at 0.05 s); the audio is delayed by the same amount at mux time.
+- Sections 2, 5, 7 and 13 below describe the first session and are now historical; the timing table in section 7 is superseded by `app/timing.js`.
+
+**Original status (first session): no video had been rendered.**
 
 ## 1. The job
 
