@@ -1,5 +1,5 @@
-import re, json
-raw=open('/mnt/user-data/uploads/Untitled_document.md').read()
+import re, json, os
+raw=open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'input', 'script.md')).read()
 raw=raw.replace('\\','')
 ones="zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
 tens="x x twenty thirty forty fifty sixty seventy eighty ninety".split()

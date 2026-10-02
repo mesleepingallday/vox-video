@@ -1,0 +1,81 @@
+[00:00.00] Four days before Donald Trump's second inauguration, his son Eric put his signature on a contract most Americans never heard about.
+[00:07.44] It sent $500 million into a company that carries the Trump family name.
+[00:11.76] The buyer wasn't a Silicon Valley fund or a Wall Street bank.
+[00:15.28] It was an investment vehicle controlled by the United Arab Emirates' National Security Advisor, a man intelligence reporters have nicknamed the Spy Shake.
+[00:24.91] Four months later, a separate Abu Dhabi state fund used that same company's brand new digital currency to move 2 billion into the world's largest crypto exchange.
+[00:34.75] Two weeks after that, the Trump administration loosened the rules on selling advanced American computer chips to the UAE.
+[00:41.95] Nobody has proven those three events are connected.
+[00:44.75] But lined up on a calendar, they raise a question this country has never really had to answer before.
+[00:50.05] What happens when a president's family fortune and his foreign policy start running through the exact same pipe?
+[00:56.21] That pipe runs through a company called World Liberty Financial, a cryptocurrency venture that didn't exist until september twenty fourth, co founded by members of the Trump family.
+[01:06.37] In under two years, it went from a side project pitched by two crypto promoters nobody had heard of To a company sitting at the center of a $2 billion international transaction, a foreign government's investment portfolio, and a genuinely new question in presidential history.
+[01:23.17] American presidents have kept their businesses at arm's length for generations, mostly through blind trusts or outright sales.
+[01:30.37] This is neither.
+[01:31.49] This is a live, operating financial company, run in part by a sitting president's family, doing business with the same governments that.
+[01:39.05] President negotiates with on behalf of the United States.
+[01:42.41] This isn't a story about whether crypto is a good investment.
+[01:45.37] It's a story about timing, ownership, and what happens when the two become impossible to fully untangle.
+[01:51.93] The company's origin story starts, of all places, on a golf course.
+[01:56.25] In the summer of 23, a crypto promoter named Chase Harrow was playing around at a private club outside Miami owned by the Witcoff family.
+[02:04.63] Real estate developers and longtime close friends of Donald Trump.
+[02:08.79] Zach Witkoff, one of the sons, struck up a conversation.
+[02:12.71] Harrow brought along his business partner, Zach Folkman.
+[02:15.91] Neither man came from a background that screamed presidential business partner.
+[02:20.39] Their previous venture, a decentralized finance platform called Doe Finance, had been hacked for roughly two million just weeks earlier.
+[02:28.23] But Steve Witkoff, the family patriarch, And a major Trump donor who would later become the administration's special envoy to the Middle East introduced them to the Trump family directly.
+[02:39.01] By his own account, Witkoff told Eric Trump, Don Jr., and their father that decentralized finance was worth pursuing.
+[02:46.85] They agreed.
+[02:47.73] World Liberty Financial launched publicly in September 24.
+[02:52.03] At the announcement live stream, the moderator introduced Harrow and Folkman as two crypto punks.
+[02:58.03] An awkward moment Witkoff tried to smooth over by acknowledging they look a little different than the Trump family's usual circle.
+[03:05.31] Different or not, the token sales worked.
+[03:08.03] The Trump name, attached to a financial product in a way it never had been before, was proving to be worth real money.
+[03:14.99] But the bigger money and the bigger questions, We're still four months away.
+[03:19.79] On January 16th, 25, four days before Trump's inauguration, Eric Trump signed a deal selling 49% of World Liberty Financial to Ariam Investment One, an entity backed by Sheikh Tainoon bin Zaid Al Nahyan.
+[03:35.79] Tainoon isn't just a wealthy investor, he's the UAE's national security advisor.
+[03:40.75] deputy ruler of Abu Dhabi and brother of the country's president.
+[03:44.27] The price tag was five hundred million, half of that two hundred ninnin fifty million, and was paid up front.
+[03:50.99] Reporting based on the deal documents puts at least one hundred eighty seven million dollars of that first payment going directly to Trump family controlled entities, with roughly thirty one million more flowing to entities tied to Steve Witcoff's family, the same family whose patriarch would soon be negotiating on behalf of the United States in the Middle East.
+[04:10.57] Trump's own twenty five financial disclosure later reported the family's total take from the arrangement at two hundred sixty three million a different figure than the original reporting and one that's never been fully reconciled publicly.
+[04:23.93] Either way, the money moved before Donald Trump ever took the oath of office for his second term.
+[04:29.29] Here's the part that made this more than just a payday.
+[04:31.95] Even though the Trump family had just sold away 49% of the company, they didn't give up 49% of the revenue.
+[04:38.51] Under the deal's structure, Trump family entities kept 75% of net proceeds from token sales, a split that let them cash out equity to a foreign investor while barely touching their share of the profits.
+[04:50.43] Two executives connected to Tanun's side of the deal took seats on World Liberty's five person board.
+[04:56.49] And in the months that followed, the company's original crypto native founders, the two punks who'd built the technical foundation, found themselves pushed out of controlling positions entirely as the Trump family consolidated ownership through a new holding structure.
+[05:11.21] The men who started the company didn't end up running it.
+[05:14.01] The family whose name was on the door did.
+[05:16.57] Then came the moment that turned World Liberty Financial from a crypto curiosity into serious money.
+[05:22.71] The Stablecoin Deal.
+[05:24.15] In March 25, the company launched USD One, a digital token pegged one to one to the US dollar, backed by cash and short term Treasury bonds.
+[05:34.23] Stablecoins make money the way a bank does, by holding the cash reserves behind the coin and earning interest on them while the coin itself moves around the world, fee free, at internet speed.
+[05:45.23] For a brand new token to succeed, it needs one thing above almost everything else someone big enough to actually use it.
+[05:52.27] On May first, twenty five, at a crypto conference in Dubai, Zach Witkoff got his answer.
+[05:58.03] He announced that MGX, a separate state backed Abu Dhabi investment fund, also chaired by Sheikh Tanoon, would use USD One to settle a two billion dollar investment in Binance, the world's largest crypto exchange.
+[06:12.65] MGX later told Forbes it chose USD one for practical reasons.
+[06:17.21] It was fully backed by dollar assets, audited and held with a US custodian.
+[06:22.33] The fund said it never actually invested in World Liberty Financial itself, paid no fees for using the coin, and doesn't hold any USD one today.
+[06:31.77] World Liberty, for its part, later confirmed to Congress that without USD one, the deal likely would have been settled in a currency with no connection to the Trump family at all.
+[06:41.59] In other words, out of every stable coin on earth, this is the one a Trump family company happened to have on hand right when a two billion dollar deal needed one.
+[06:50.87] Then came the timing that raised eyebrows across Washington.
+[06:54.15] Roughly two weeks after the Binance deal closed, the Trump administration eased export rules on advanced American computer chips headed to the UAE, the same country whose state fund had just funneled billions through the president's family's currency.
+[07:08.35] Senators Elizabeth Warren and Jeff Merkley didn't wait to react.
+[07:12.19] They sent a formal letter, demanding MGX and Binance preserve every document related to the transaction, writing that using a stable coin which conveniently lines the pockets of the sitting US President and his family wasn't necessary to promote the dollar's use worldwide.
+[07:27.75] Warren went further in public, calling the deal corruption and criticizing the Senate's simultaneous push to pass the Genius Act.
+[07:36.23] New stable coin legislation she argued would make it easier, not harder, for a President to profit from a coin bearing his family's name.
+[07:44.55] The White House's answer to all of this has been consistent.
+[07:47.75] There is no conflict of interest.
+[07:49.67] A White House spokesperson has said the President acts only in the best interests of the American public.
+[07:55.39] World Liberty Financial's own spokesperson has described the company as a private American financial technology business, with no employees inside the government and no political function at all.
+[08:07.23] No court, agency, or law enforcement body has found that either the UAE equity deal or the MGX stablecoin transaction broke any law and no charges have been filed against anyone involved.
+[08:19.87] What exists instead is a paper trail.
+[08:22.25] and a calendar a five hundred million dollar deal signed days before an inauguration a two billion dollar transaction, settled in the family's own currency, four months later, an export policy change that landed two weeks after that and a year end financial disclosure showing one point four billion in family income from crypto ventures overall, with nearly eight hundred million dollar that tied to World Liberty Financial alone.
+[08:47.91] For almost two hundred and fifty years, American presidents have operated under an informal but powerful norm, keep your business interests at arm's length while you hold the office, because the appearance of profiting from the presidency is almost as corrosive as actually doing it.
+[09:03.59] World Liberty Financial tests that norm in a way nothing quite has before, not through a blind trust or a sold off business, but through a brand new financial product that only exists because of who's attached to it.
+[09:16.37] invest in by the very governments the president negotiates with on behalf of the United States.
+[09:21.97] Whether that's aggressive deal making or something more troubling may depend entirely on your politics.
+[09:27.97] But the facts on the calendar don't change based on who's watching.
+[09:31.49] The money moved first and the policy moved after, and this isn't even the whole story.
+[09:36.53] The same company is now trying to get a federal bank charter.
+[09:39.77] And one of its earliest investors just watched a federal fraud case against him quietly disappear.
+[09:45.37] That's a different video.
