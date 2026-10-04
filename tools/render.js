@@ -38,6 +38,8 @@ function serve() {
   if (mode === 'stills') {
     const dir = path.join(ROOT, 'out', 'stills'); fs.mkdirSync(dir, { recursive: true });
     for (const a of args) { const t = +a; await seekTo(t); fs.writeFileSync(path.join(dir, `t_${t.toFixed(2)}.png`), await shot('png')); console.log('still', t); }
+  } else if (mode === 'fit') {   // print the text-containment fixes applied by the v4 skin
+    console.log(JSON.stringify(await page.evaluate(() => window.V4_FIT || []), null, 0).replace(/\},\{/g, '},\n{'));
   } else if (mode === 'scenes') {
     const dir = path.join(ROOT, 'out', 'stills'); fs.mkdirSync(dir, { recursive: true });
     const sc = await page.evaluate(() => SC.map(s => [s.t0, s.t1]));

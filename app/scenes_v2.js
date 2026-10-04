@@ -201,7 +201,7 @@ scene(S(23), { bg: 'cream', tr: 'wipe' }, sc => {
   const ch = cheque(120, 250, 1000, 'Tencent', '$32,000,000', 'Thirty-two million dollars', Wt(23, 'paid') - .2, { in: 'drop', t: S(23) - .1, rot: -2 });
   ch.to(Wt(23, '46.5') - .5, .6, { x: -40, y: -60, r: -5, s: .8 }, EZ.io);
   logoFill('tencentqq', 1180, 220, 600, { col: BLUE, t: Wt(23, '46.5'), d: 1, p1: 46.5, in: 'pop', tin: 0 });
-  write('46.5%', 1270, 860, 130, Wt(23, '46.5') + .4, .5, { f: 'hm', col: BLUE });
+  write('46.5%', 1270, 830, 130, Wt(23, '46.5') + .4, .5, { f: 'hm', col: BLUE });
   write('of Tencent', 1310, 990, 56, Wt(23, 'stake'), .5, { f: 'hp' });
 });
 
@@ -386,15 +386,15 @@ scene(S(54), { bg: 'cream', tr: 'wipeL' }, sc => {
 // [56] Tim Sweeney via Polygon: ~48.4% of shares, ~40% counting employee options
 scene(S(56), { bg: 'grid' }, sc => {
   portrait('timsweeney', 90, 200, 720, { k: 'personB', tint: '#2553C7', in: 'up', t: S(56) });
-  write('Tim Sweeney, founder', 120, 940, 52, S(56) + .3, .7, { f: 'hm' });
-  logo('polygon', 1760, 70, 110, { col: '#FF0052', in: 'pop', t: Wt(56, 'polygon') });
+  write('Tim Sweeney, founder', 120, 900, 52, S(56) + .3, .7, { f: 'hm' });
+  logo('polygon', 660, 230, 110, { col: '#FF0052', in: 'pop', t: Wt(56, 'polygon') });
   const uc = unitChart(900, 250, 12, 10, 52, { steps: [[Wt(56, '48.4') - .2, 58, BLUE]] });
-  write('≈ 48.4% of shares', 900, 110, 64, Wt(56, '48.4'), .6, { f: 'hm', col: BLUE });
+  write('≈ 48.4% of shares', 900, 112, 52, Wt(56, '48.4'), .6, { f: 'hm', col: BLUE });
   // employee options join: the same stake becomes ~40%
   const ex = unitChart(900, 1030, 12, 2, 52, { base: '#E9C9A6' });
   ex.o.style.zIndex = 5; A(ex.i, [{ opacity: 0, transform: 'translateY(60px)' }, { opacity: 1, transform: 'translateY(-180px)' }], L0(Wt(56, 'employee')), .6, EZ.out);
   A(uc.i, [{ transform: 'translateY(0)' }, { transform: 'translateY(-60px)' }], L0(Wt(56, 'employee')), .6, EZ.out);
-  write('→ ≈ 40% with options', 1400, 112, 50, Wt(56, '40'), .6, { f: 'hm', col: RED });
+  write('→ ≈ 40% with options', 1400, 120, 40, Wt(56, '40'), .6, { f: 'hm', col: RED });
   source('TIM SWEENEY VIA POLYGON', Wt(56, 'polygon'));
 });
 
@@ -435,9 +435,9 @@ scene(S(62), { bg: 'grid' }, sc => {
   write('28%  ×  $31.5B', 160, 400, 120, Wt(64, 'valuation') - .4, .9, { f: 'hm', col: INK });
   scrawl(roughD([[150, 560], [700, 556], [1000, 562]], 2), Wt(64, 'worth') - .3, .4, { col: INK, sw: 7 });
   write('≈ $8.8B on paper', 160, 590, 130, Wt(64, 'nine'), .7, { f: 'hm', col: TEAL });
-  const base = 980;
-  const b1 = mk(`<div style="width:120px;height:${(.33 / 8.8) * 700}px;background:${RED};box-shadow:6px 8px 0 rgba(20,15,5,.25)"></div>`, 1280, base - (.33 / 8.8) * 700, { in: 'growY', t: S(65) });
-  const b2 = mk(`<div style="width:120px;height:700px;background:${TEAL};box-shadow:6px 8px 0 rgba(20,15,5,.25)"></div>`, 1500, base - 700, { in: 'growY', t: Wt(64, 'nine') });
+  const base = 900;
+  const b1 = mk(`<div style="width:120px;height:${(.33 / 8.8) * 620}px;background:${RED};box-shadow:6px 8px 0 rgba(20,15,5,.25)"></div>`, 1280, base - (.33 / 8.8) * 620, { in: 'growY', t: S(65) });
+  const b2 = mk(`<div style="width:120px;height:620px;background:${TEAL};box-shadow:6px 8px 0 rgba(20,15,5,.25)"></div>`, 1500, base - 620, { in: 'growY', t: Wt(64, 'nine') });
   write('$330M', 1250, base + 10, 50, S(65) + .2, .4, { f: 'hm', col: RED });
   write('$8.8B', 1490, base + 10, 50, Wt(64, 'nine') + .3, .4, { f: 'hm', col: TEAL });
   cheque(700, 760, 460, 'Epic Games', '$330M', null, S(65) - .2, { in: 'drop', t: S(65) - .3, rot: 5, bank: 'TENCENT HOLDINGS' });
