@@ -228,7 +228,7 @@ window.PHOTO3 = window.PHOTO3 || {};
 function photo(id, x, y, h, o) {
   o = o || {}; const m = PHOTO3[id];
   if (m) {
-    const n = put(`<img src="photos/${m.src}" style="display:block;height:${h}px;width:auto">`, x, y, Object.assign({}, o, { cls: 'co', in: null }));
+    const n = put(`<img src="photos/${m.src}" style="display:block;height:${h + 28}px;width:auto">`, x, y, Object.assign({}, o, { cls: 'co', in: null }));
     enter(n, o.enter === undefined ? 'lay' : o.enter, o.t, o.d, o);
     if (m.credit && o.credit !== false) credit(m.credit, o.t, 6, 'PHOTO');
     return n;

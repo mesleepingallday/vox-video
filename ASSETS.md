@@ -1,10 +1,17 @@
 # Asset manifest (v3)
 
+**Output:** a 16:9 Vox-style documentary/TVC for YouTube (1080p, 24 fps). Portrait assets should hold up at roughly
+780 px tall on screen, so supply at least 1600 px tall.
+
+**Fastest path to a public-ready chapters 1–2:** R01, R08, R09, R10a, R10b (five portraits). R02 (Tencent logo) is needed for the title and end cards. Everything else in
+chapters 1–2 is already built in code.
+
 How to deliver:
 - Generated images → `assets/gen/<ID>.png`
 - Real photos/archival/logos → `assets/real/<ID>.<ext>`, plus one line per file in `assets/real/CREDITS.txt`
   (`ID | source URL | author | licence`)
-- Push to the repo (or attach in chat).
+- Push to the repo (or attach in chat), then run `python3 tools/ingest.py`; each asset is printed at its on-screen size
+  and replaces its "ASSET <ID>" placeholder automatically.
 - Deliver **clean** images: no halftone, no white border, no paper texture, no added grain. `tools/print.py` applies the
   same cut-out, halftone, border and edge treatment to every image, so all sources look like one print run.
 - **P1** = needed for chapters 1–2 (do these first), **P2** = chapters 3–5, **P3** = chapters 6–7 and ending.
@@ -31,16 +38,17 @@ The cloud session cannot reach Wikimedia, so please fetch these (Wikimedia Commo
 | R07 | P1 | **Euronext Amsterdam** building (Beursplein 5) exterior | Commons category "Beurs van Berlage" / "Euronext Amsterdam" | 2019 listing of Prosus. |
 | R08 | P1 | **Brandon Beck** portrait | Commons (if any) or Riot press kit | If nothing licensable exists, tell me; I'll stage the quote without a face. |
 | R09 | P1 | **Tim Sweeney** portrait | Commons (e.g. GDC 2017 photos by Official GDC, CC BY 2.0) | |
-| R10 | P1 | **Mike Capps** and **Cliff Bleszinski** portraits | Commons (GDC/PAX photos, CC BY/BY-SA) | |
+| R10a | P1 | **Mike Capps** portrait | Commons (GDC photos, CC BY/BY-SA) | |
+| R10b | P1 | **Cliff Bleszinski** portrait | Commons (PAX/GDC photos, CC BY/BY-SA) | |
 | R11 | P1 | **Epic Games HQ**, Cary NC, exterior | Commons category "Epic Games" | |
 | R12 | P1 | **Riot Games campus**, Los Angeles, exterior | Commons category "Riot Games" | |
 | R13 | P2 | **Supercell office / Helsinki waterfront** | Commons category "Supercell" / "Helsinki" | |
 | R14 | P2 | **Yves Guillemot** portrait | Commons (CC BY-SA, event photos) | |
 | R15 | P2 | **Honor of Kings** and **Clash of Clans** logos | Official press kits / Commons | Editorial use. |
 | R16 | P2 | **Ubisoft**, **Paradox**, **Remedy**, **Techland**, **Krafton**, **FromSoftware**, **Funcom**, **Grinding Gear Games** logos | Commons / official press kits | For the "list kept growing" wall. |
-| R17 | P2 | **Donald Trump** and **Joe Biden** official portraits | Commons (White House official portraits, public domain) | |
+| R17a / R17b | P2 | **Donald Trump** (a) and **Joe Biden** (b) official portraits | Commons (White House official portraits, public domain) | |
 | R18 | P2 | **Xi Jinping** portrait | Commons (kremlin.ru, CC BY 4.0) | |
-| R19 | P2 | **The Pentagon** aerial; **U.S. Capitol**; **U.S. Treasury** building; **U.S. Department of Justice** building | Commons (U.S. government works, public domain) | |
+| R19a–d | P2 | **The Pentagon** aerial (a); **U.S. Capitol** (b); **U.S. Treasury** building (c); **U.S. Department of Justice** building (d) | Commons (U.S. government works, public domain) | |
 | R20 | P2 | **Hong Kong Exchanges** / Exchange Square or HK skyline | Commons | Shares fell 7.3%. |
 | R21 | P3 | **Lisa Monaco** official DOJ portrait (public domain); **John McEntee** photo (if licensable) | Commons | |
 | R22 | P3 | **Financial Times** front page (reference only), **Bloomberg**, **Reuters**, **Variety**, **Washington Examiner**, **Motley Fool**, **Tom's Hardware** wordmarks (vector) | Commons / press pages | Source credits as real mastheads. |
