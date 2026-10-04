@@ -10,9 +10,12 @@ const eOut = x => x >= 1 ? 1 : 1 - Math.pow(2, -10 * x), eIO = x => x < .5 ? 4 *
 // A large layout plane inside the current scene. cam keys: [{t, d, x, y, z, r}] -> the camera centres on world (x, y).
 function world(o) {
   o = o || {}; const el = document.createElement('div');
-  el.style.cssText = `position:absolute;left:0;top:0;width:${o.w || 12000}px;height:${o.h || 6000}px;transform-origin:0 0;will-change:transform`;
+  el.style.cssText = `position:absolute;left:0;top:0;width:${o.w || 12000}px;height:${o.h || 6000}px;transform-origin:0 0`;
+  // the paper ground is a viewport-sized layer whose texture follows the camera (a huge textured plane would exceed
+  // the GPU's maximum texture size and render black)
+  let gnd = null;
+  if (o.ground !== false) { gnd = document.createElement('div'); gnd.style.cssText = `position:absolute;inset:-60px;background-color:${C.paper};background-image:url(tex/bg_ground.jpg)`; cur.cam.appendChild(gnd); }
   cur.cam.appendChild(el);
-  if (o.ground !== false) el.style.background = `${C.paper} url(tex/bg_ground.jpg) 0 0/1024px`;
   const W = { el, i: el, keys: [] };
   W.cam = keys => { W.keys = keys; return W; };
   W.at = T => {  // camera state at time T (eased between keys, with a slow drift on top)
@@ -22,7 +25,8 @@ function world(o) {
     const drift = 1 + Math.min(T - (s.t || 0), 8) * (o.drift === undefined ? .004 : o.drift);
     return { x: s.x + Math.sin(T * .21) * 6, y: s.y + Math.cos(T * .17) * 4, z: s.z * drift, r: (s.r || 0) + Math.sin(T * .13) * .15 };
   };
-  tick(T => { const c = W.at(T); el.style.transform = `translate(960px,540px) rotate(${c.r.toFixed(3)}deg) scale(${c.z.toFixed(5)}) translate(${(-c.x).toFixed(2)}px,${(-c.y).toFixed(2)}px)`; });
+  tick(T => { const c = W.at(T); el.style.transform = `translate(960px,540px) rotate(${c.r.toFixed(3)}deg) scale(${c.z.toFixed(5)}) translate(${(-c.x).toFixed(2)}px,${(-c.y).toFixed(2)}px)`;
+    if (gnd) { const ts = 1024 * Math.min(c.z, 6); gnd.style.backgroundSize = `${ts.toFixed(1)}px`; gnd.style.backgroundPosition = `${(1020 - c.x * c.z).toFixed(1) % ts}px ${(600 - c.y * c.z).toFixed(1) % ts}px`; } });
   return W;
 }
 // add a node to the world (or another parent) at world coordinates

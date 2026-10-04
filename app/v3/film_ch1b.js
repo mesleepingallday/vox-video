@@ -6,10 +6,6 @@ function drawBills(cx, w, h) {
     const g = cx.createLinearGradient(x, y, x + w * .7, y + h * .3); g.addColorStop(0, '#9DB59A'); g.addColorStop(1, '#5E7C5C'); cx.fillStyle = g; cx.fillRect(x, y, w * .7, h * .32);
     cx.strokeStyle = 'rgba(30,50,30,.5)'; cx.lineWidth = 3; cx.strokeRect(x + 10, y + 10, w * .7 - 20, h * .32 - 20);
     cx.fillStyle = 'rgba(30,50,30,.45)'; cx.beginPath(); cx.ellipse(x + w * .35, y + h * .16, h * .09, h * .11, 0, 0, 7); cx.fill(); }
-  const f = cx.createLinearGradient(0, 0, 0, h * .55); f.addColorStop(0, 'rgba(60,60,60,0)'); f.addColorStop(.35, '#8A8A8A'); f.addColorStop(1, '#1E1E1E');
-  cx.fillStyle = f; cx.beginPath(); cx.moveTo(w * .2, h * .5);
-  for (let k = 0; k <= 8; k++) { const x = w * (.2 + k * .07); cx.quadraticCurveTo(x - w * .03, h * (.15 + (k % 2) * .12), x, h * (.02 + (k % 3) * .08)); cx.quadraticCurveTo(x + w * .02, h * .3, x + w * .035, h * .5); }
-  cx.lineTo(w * .2, h * .5); cx.fill();
 }
 function drawCanal(cx, w, h) {
   const sky = cx.createLinearGradient(0, 0, 0, h); sky.addColorStop(0, '#D5DEE6'); sky.addColorStop(1, '#F1ECE2'); cx.fillStyle = sky; cx.fillRect(0, 0, w, h);
@@ -34,7 +30,7 @@ scene(S(17), { bg: 'ground' }, sc => {
   w.T('Growing fast.', 200, 300, 120, { f: 'd', wt: 800, t: S(18) - .1 });
   w.line('M220 600 C 500 590, 700 560, 900 500 S 1300 380, 1500 300 S 1900 230, 2080 210', S(18), 1.1, { sw: 8, col: C.blue });
   w.T('Burning cash.', 200, 660, 120, { f: 'd', wt: 800, t: S(19) - .1 });
-  w.obj(drawBills, 1230, 560, 760, 430, { t: S(19) - .05, z: 5 });
+  w.obj(drawBills, 1250, 700, 760, 430, { t: S(19) - .05, z: 5 });
   w.T('Looking for someone willing to bet on it.', 200, 1020, 64, { f: 'd', wt: 700, t: S(20) - .1, w: 1500, lh: 1.08 });
   const ad = w.cut(`<div style="padding:26px 30px;font:400 24px/1.35 'News'"><div style="font:700 15px 'Mono';letter-spacing:.2em;border-bottom:1.5px solid ${C.ink};padding-bottom:8px;margin-bottom:12px">CLASSIFIED · BUSINESS</div>
       <div style="font:700 50px/1 'News';margin-bottom:10px">Investor wanted.</div>Fast-growing internet messaging company seeks long-term backer. Serious enquiries only.<div style="font:600 19px 'Mono';margin-top:14px">SHENZHEN · 2001</div></div>`, 1420, 1080, 600, 420, { t: Wt(20, 'someone'), rot: 2, z: 5 });
