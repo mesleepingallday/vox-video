@@ -54,6 +54,8 @@ function portrait(name, x, y, h, o) {
   o = o || {}; const src = PHOTO[name];
   if (src) {
     const duo = o.duo || [INK, o.tint || YEL];
+    const meta = (window.PHOTO_DATA || {})[name] || {}; if (!o.ar) o.ar = meta.ar;
+    if (meta.credit && o.credit !== false) txt('PHOTO: ' + meta.credit, 1850, 1010, 18, { f: 'm', al: 'right', css: { transform: 'translateX(-100%)' }, col: cur.dark ? 'rgba(244,238,221,.7)' : 'rgba(26,24,20,.55)', in: 'fade', t: o.t || cur.T0, z: 40 });
     return mk(`<div style="position:relative;height:${h}px;width:${h * (o.ar || .8)}px">
       <img src="${src}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:bottom;filter:url(#stickerRim) drop-shadow(8px 10px 0 rgba(20,15,5,.25))">
       <img src="${src}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:bottom;filter:url(#duo_${duo[1].slice(1)}) contrast(1.15);mix-blend-mode:multiply;opacity:${o.photoOp || 1}">
