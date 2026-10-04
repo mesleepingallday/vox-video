@@ -72,8 +72,10 @@ const PRE = 0.6, AUDIO_DUR = 912.82, TOTAL = AUDIO_DUR + PRE;
 for (const k in TM) { const s = TM[k]; s.t0 += PRE; s.t1 += PRE; s.words.forEach(w => { w[1] += PRE; }); }
 </script>
 <script src="print.js"></script>
-<script>document.write(`<script src="${new URLSearchParams(location.search).get('scenes') || 'film.js'}"><\/script>`);</script>
-<script>
+<script src="photos/manifest.js"></script>
+<script>(new URLSearchParams(location.search).get('scenes') || 'film_lib.js,film_open.js,proof.js,film_ch1b.js,film_ch2.js').split(',').forEach(f => document.write(`<script src="${f}"><\/script>`));</script>
+<script type="module">
+import * as THREE from "../vendor/three.module.js"; window.THREE = THREE;
 buildAll();
 window.seek = seek;
 window.READY = document.fonts.ready.then(() => Promise.all(['500 40px Display','600 40px Display','700 40px Display','800 40px Display','900 40px Display','400 40px Text','500 40px Text','600 40px Text','700 40px Text','400 40px Mono','500 40px Mono','600 40px Mono','400 40px News','italic 400 40px News','600 40px News','700 40px News'].map(f => document.fonts.load(f, 'AaZz09$%€')).concat(document.fonts.load('700 40px SansSC', '腾讯深圳微信网络寻呼机马化腾')))).then(() => {

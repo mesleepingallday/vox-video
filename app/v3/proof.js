@@ -1,6 +1,6 @@
 'use strict';
 /* v3 proof: sentences 4-16 ("It was a copy" -> QQ -> a million users -> no profit until 2001) in one continuous world. */
-scene(S(4) - 1, { bg: 'ground', z0: 1, z1: 1 }, sc => {
+scene(S(4) - .25, { bg: 'ground', z0: 1, z1: 1 }, sc => {
   const Wd = world({ w: 12000, h: 3600 });
   const P = (html, x, y, o) => put(html, x, y, Object.assign({ w0: Wd }, o || {}));
   const cutW = (inner, x, y, w, h, o) => cut(inner, x, y, w, h, Object.assign({ w0: Wd }, o || {}));
@@ -103,7 +103,6 @@ scene(S(4) - 1, { bg: 'ground', z0: 1, z1: 1 }, sc => {
     { t: S(16) + .6, d: 1.2, x: 9880, y: 640, z: .9 },
   ]);
 });
-scene(S(17), { bg: 'ground' }, () => {});
 
 /* helpers local to the proof */
 function el3(parent, html) { const d = document.createElement('div'); d.innerHTML = html.trim(); const e = d.firstChild; parent.appendChild(e); return e; }
