@@ -1,6 +1,10 @@
 # Tencent explainer video
 
-Read HANDOFF.md first. It holds the brief, the current status, the sync problem, the design system, the storyboard and the next steps.
+**Current direction is v3** (DESIGN_SYSTEM.md, ASSETS.md, app/v3/). v1 (app/scenes.js) and v2 (app/scenes_v2.js) are superseded.
+- v3 stills: `PAGE=v3/index.html SCENES=proof.js node tools/render.js stills <t>...`; raster assets go through `tools/print.py` (cut-out, halftone, border) before use.
+- Supplied assets land in assets/gen/ and assets/real/ (see ASSETS.md for IDs).
+
+Read HANDOFF.md for history. It holds the brief, the current status, the sync problem, the design system, the storyboard and the next steps.
 
 - All 75 storyboard scenes are written in app/scenes.js and render. Check work with stills before rendering video:
   `node tools/render.js scenes [i0] [i1]` -> out/stills/sc_NNN.png (one per scene), `node tools/render.js stills <t>...`.
