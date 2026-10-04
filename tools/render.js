@@ -2,7 +2,7 @@
 //   node tools/render.js stills <t> [t ...]            -> out/stills/t_<t>.png   (t in video seconds)
 //   node tools/render.js scenes [i0] [i1]               -> one still per scene, 0.3 s before it ends (out/stills/sc_<i>.png)
 //   node tools/render.js seg <from> <to> <file.mp4>     -> video-only H.264 segment, frames [from*FPS, to*FPS)
-// Run from the repo root. SCENES=test.js loads app/test.js instead of app/scenes.js.
+// Run from the repo root. SCENES=test.js loads app/test.js instead of app/scenes.js. PAGE=v3/index.html uses the v3 page.
 const http = require('http'), fs = require('fs'), path = require('path'), { spawn } = require('child_process');
 const { chromium } = require(process.env.PLAYWRIGHT || '/opt/node22/lib/node_modules/playwright');
 const ROOT = path.resolve(__dirname, '..'), FPS = 24;
@@ -24,7 +24,7 @@ function serve() {
   const browser = await chromium.launch({ args: ['--disable-gpu', '--force-color-profile=srgb', '--font-render-hinting=none', '--disable-lcd-text'] });
   const page = await browser.newPage({ viewport: { width: 1920, height: 1080 }, deviceScaleFactor: 1 });
   const errs = []; page.on('console', m => { if (m.type() === 'error' || m.type() === 'warning') errs.push(m.text()); }); page.on('pageerror', e => errs.push('PAGEERROR ' + e.message));
-  await page.goto(`http://127.0.0.1:${port}/app/index.html${process.env.SCENES ? '?scenes=' + process.env.SCENES : ''}`);
+  await page.goto(`http://127.0.0.1:${port}/app/${process.env.PAGE || 'index.html'}${process.env.SCENES ? '?scenes=' + process.env.SCENES : ''}`);
   await page.evaluate(() => window.READY);
   const cdp = await page.context().newCDPSession(page);
   const shot = async (fmt) => Buffer.from((await cdp.send('Page.captureScreenshot', { format: fmt, quality: fmt === 'jpeg' ? 93 : undefined, optimizeForSpeed: true, clip: { x: 0, y: 0, width: 1920, height: 1080, scale: 1 } })).data, 'base64');
